@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-main {
+  background-color: #303428;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+}
+
+
+.card {
+  background-color: #4c6fb069;
+  border-color: #abe8e8;
+}
+
+.card-header {
+  background-color: #0846b9;
+}
+
+
+.accounts-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px 0;
+}
+
+.account-data {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.account-data-details {
+  width: 160px;
+  text-align: start;
+  border: 1px solid #0846b9;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.account-data-details-money {
+  width: 90px;
+  text-align: end;
+  border: 1px solid #0846b9;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.fieldset {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fieldset-add-new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.fieldset-input {
+  background-color: #b0d1e6;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  max-width: 100%;
+
+}
+
+.fieldset-input-money {
+  background-color: #bfdbed;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 150px;
+}
+
+.fieldset-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal {
+  display: block;
+  background-color: #102a2dcd;
+
+  .modal-content {
+    background-color: #f7f7f7;
+  }
+
+  .modal-title,
+  .modal-body {
+    color: #102A2D;
+  }
+}
+
+
+.messages {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  .message {
+    padding: 15px 30px;
+    background-color: #f7f7f7;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #102A2D;
+  }
+}
+
+
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}

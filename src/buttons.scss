@@ -1,0 +1,48 @@
+.button {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline - block;
+    background-color: #5984b3;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin: 3px;
+    &:hover {
+        background-color: #063669;
+    }
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}
+
+
+
+.button-del {
+    cursor: pointer;
+    text-decoration: none;
+    color: #e42837;
+    font-weight: bold;
+    display: inline - block;
+    background-color: #102a2d00;
+    border-radius: 30px;
+    border: 1px solid #e42837;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: 3px;
+    &:hover {
+        background-color: #e42837;
+        color: white;
+    }
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}
+
